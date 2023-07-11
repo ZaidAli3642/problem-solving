@@ -96,12 +96,12 @@ const hashmap = new HashTable(5);
 hashmap.put(6, 10);
 hashmap.put(11, 11);
 hashmap.put(16, 12);
-// hashmap.put(21, 22);
-// hashmap.put(6, 23);
-// hashmap.put(2, 20);
-// hashmap.put(3, 30);
+hashmap.put(21, 22);
+hashmap.put(6, 23);
+hashmap.put(2, 20);
+hashmap.put(3, 30);
 
 console.log(hashmap.remove(16));
 console.log(hashmap.remove(11));
-console.log(hashmap.remove(20));
-console.log(hashmap.get(16));
+console.log(hashmap.remove(2));
+console.log(hashmap.get(2));
